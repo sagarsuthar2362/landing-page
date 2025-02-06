@@ -16,7 +16,7 @@ const Home = () => {
         </main>
       </div>
 
-      <div className="home2 h-[120vh] bg-gray-800 md:-mt-[200px] z-1 flex flex-col md:flex-col items-center justify-center md:justify-between">
+      <div className="home2 h-[120vh] bg-gray-800 md:-mt-[200px]   flex flex-col md:flex-col items-center justify-center ">
         <img src={vg} />
         <div>
           <p className="text-white md:text-xl p-5">
