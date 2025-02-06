@@ -24,6 +24,11 @@ main::before {
   }
 }
 
+.brand-icons div:hover{
+  cursor: pointer;
+  filter: invert(1);
+}
+
 @media (max-width: 768px) {
   main::before {
     height: 100vh;
