@@ -1,0 +1,26 @@
+main::before {
+  content: "";
+  height: 91vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: no-repeat center/auto url("../../assets/1.png");
+  border-radius: 0 0 200px 200px;
+  z-index: -1;
+}
+
+.home2 img {
+  animation: imgUp 0.8s linear infinite alternate;
+}
+
+.home4 .brand-icons div{
+    animation: imgUp 0.5s linear infinite alternate;
+
+}
+
+@keyframes imgUp {
+  to {
+    transform: translateY(-20px);
+  }
+}
