@@ -1,24 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
   return (
     <div>
-      <nav className="flex  justify-between items-center p-4 sticky top-0 left-0">
+      <nav className="flex justify-between items-center p-4 sticky top-0 left-0">
         <h1 className="text-2xl font-bold">TechStar</h1>
 
         <ul className="menu flex gap-14">
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <HashLink to="/#about">About</HashLink>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <a href="#">Services</a>
+            <Link to="/services">Services</Link>
           </li>
         </ul>
       </nav>

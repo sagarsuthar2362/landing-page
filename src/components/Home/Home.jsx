@@ -28,7 +28,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="home3 h-screen bg-gray-800">
+      <div className="home3 h-screen bg-gray-800" id="about">
         <div className="bg-white h-8/12 w-9/12 flex flex-col items-center justify-center p-20 rounded-r-[200px] space-y-5">
           <h1 className="text-4xl font-semibold border-b-3 ">Who we are?</h1>
           <p>
