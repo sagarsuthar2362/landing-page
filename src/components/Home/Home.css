@@ -14,13 +14,22 @@ main::before {
   animation: imgUp 0.8s linear infinite alternate;
 }
 
-.home4 .brand-icons div{
-    animation: imgUp 0.5s linear infinite alternate;
-
+.home4 .brand-icons div {
+  animation: imgUp 0.5s linear infinite alternate;
 }
 
 @keyframes imgUp {
   to {
     transform: translateY(-20px);
+  }
+}
+
+@media (max-width: 768px) {
+  main::before {
+    height: 100vh;
+    border-radius: 0;
+  }
+  main::before {
+    height: 100vh;
   }
 }

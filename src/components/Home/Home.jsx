@@ -10,9 +10,9 @@ const Home = () => {
   return (
     <div>
       <div className="home1 h-[91vh] w-full md:rounded-b-[200px] ">
-        <main className="absolute h-full w-full flex flex-col items-end justify-center px-20  rounded-b-200px text-white uppercase  z-10 ">
-          <h1 className="text-8xl font-bold">Techy Star</h1>
-          <p className="text-2xl">solution to all your problems</p>
+        <main className="absolute h-full w-full flex flex-col md:items-end items-center justify-center px-20  md:rounded-b-200px text-white uppercase  z-10 ">
+          <h1 className="md:text-8xl text-5xl font-bold">Techy Star</h1>
+          <p className="md:text-2xl font-bold">solution to all your problems</p>
         </main>
       </div>
 
@@ -64,23 +64,32 @@ const Home = () => {
               <span className="text-xl">Google</span>
             </div>
 
-            <div className="bg-gray-200 rounded-full h-34 w-34 flex flex-col items-center justify-center" style={{
-                          animationDelay:'0.6s'
-            }}>
+            <div
+              className="bg-gray-200 rounded-full h-34 w-34 flex flex-col items-center justify-center"
+              style={{
+                animationDelay: "0.6s",
+              }}
+            >
               <AiFillAmazonCircle className="text-4xl" />
               <span className="text-xl">Amazon</span>
             </div>
 
-            <div className="bg-gray-200 rounded-full h-34 w-34 flex flex-col items-center justify-center" style={{
-                          animationDelay:'0.9s'
-            }}>
+            <div
+              className="bg-gray-200 rounded-full h-34 w-34 flex flex-col items-center justify-center"
+              style={{
+                animationDelay: "0.9s",
+              }}
+            >
               <AiFillYoutube className="text-4xl" />
               <span className="text-xl">Youtube</span>
             </div>
 
-            <div className="bg-gray-200 rounded-full h-34 w-34 flex flex-col items-center justify-center" style={{
-                          animationDelay:'1.2s'
-            }}>
+            <div
+              className="bg-gray-200 rounded-full h-34 w-34 flex flex-col items-center justify-center"
+              style={{
+                animationDelay: "1.2s",
+              }}
+            >
               <AiFillInstagram className="text-4xl" />
               <span className="text-xl">Instagram</span>
             </div>
